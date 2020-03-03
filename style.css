@@ -1,0 +1,235 @@
+/*
+ Theme Name:   Simpleblock Stgeorge
+ Theme URI:    http://www.cbdweb.net/
+ Description:  St George child of CBDWeb SimpleBlock theme
+ Author:       Nik Dow
+ Author URI:   http://www.cbdweb.net/
+ Template:     simpleblock
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         top bottom menu
+ Text Domain:  simpleblock-stgeorge
+*/
+
+body {
+    background-repeat: no-repeat;
+    background-position-x: 3%;
+    background-position-y: 100px; 
+    font: 12px Arial,sans-serif;
+    color: #666;
+}
+@media only screen and (min-width: 1300px) {
+    body{
+        background-image: url(/bookings/unique/stgeorgealpine/image/SGACLogo.jpg);
+    }
+}
+h1.site-title {
+	height: 2px;
+	display: none;
+	padding: 6px 0;
+	background-color: #02ffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+p {
+    margin: 0 0 15px 0;
+    line-height: 20px;
+}
+article .one-third.column {
+    width: 300px;
+}
+article .column, .article .columns {
+    float: left;
+    display: inline;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+article .column h2 {
+    margin-top: -10px;
+}
+div.menu-footer-menu-container, div.menu-header-menu-container {
+	margin: 57px  0 0 320px;
+}
+form.bop-nav-search input.search-submit, form.bop-nav-search>label>span {
+    display: none;
+}
+h1.entry-title {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    color: #353535;
+    font-weight: normal;
+}
+h2.entry-title{
+    font-size: 26px;
+    font-weight: normal;
+    padding: 11px 0 26px 0;
+}
+div.entry-content{
+    float: left;
+    width: 72%;
+    margin: 0;
+}
+div.entry-content img {
+    border: solid #000 1px;
+    padding: 0;
+    margin: 0 0 10px 10px;
+}
+div.entry-content.full-width{
+    width: 100%;
+}
+
+div.metaslider-custom>div>div.flexslider>ul>li>div.caption-wrap{
+    width: 30%;
+    padding: 22px;
+    margin: 0 0 20px 20px;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+div.metaslider-custom>div>div.flexslider>ul>li>div.caption-wrap>div.caption{
+    margin: 0;
+    line-height: 19px;
+    color: #bbb;
+    padding: 0;
+}
+div.metaslider-custom h2{
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    line-height: 22px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+div#primary{
+    margin: 0 31px; /* align with menu location */
+}
+    /*
+    sidebar widgets
+     */
+.primary-sidebar {
+    float: right;
+    width: 25%;
+    margin: 0 0 0 3%;
+}
+body.home .primary-sidebar {
+    margin-top: 40px;
+}
+.primary-sidebar h2{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #333333;
+}
+div#primary-sidebar ul{
+    list-style-position: outside;
+    list-style-image: url(image/links-list-arrow-02.png);
+    margin-left: -27px;
+}
+div#primary-sidebar ul li {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+}
+div#primary-sidebar ul li:first-child a {
+    margin: -3px 0 0 0;
+}
+div#primary-sidebar ul li a{
+    color:  #2db2ea;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: color 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out;
+    -o-transition: color 0.1s ease-in-out;
+    -transition: color 0.1s ease-in-out;
+}
+input.search-field{
+    width: 82%;
+    padding-left: 30px;
+    color: #888;
+    background: url(image/search-ico-alt.png) no-repeat 5% 54%;
+}
+input.search-submit{
+    display:none;
+}
+div.primary-sidebar a.button {
+    margin-top: 25px;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="email"], textarea, select {
+    border: 1px solid #d8d8d8;
+    padding: 9px;
+    outline: none;
+    font: 12px Arial, sans-serif;
+    color: #888;
+    margin: 0;
+    max-width: 100%;
+    display: block;
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(180, 180, 180, 0.1);
+    box-shadow: 0px 1px 1px 0px rgba(180, 180, 180, 0.1);
+}
+/*
+Body
+ */
+div#content{
+	margin: 25px auto;
+}
+.button.color,input[type="button"]{
+    color: #ffffff;
+}
+.button.color:hover {
+    background: #aaa;
+}
+.button.medium {
+    padding: 11px 17px;
+    font-size: 14px;
+}
+.button.color, input[type="button"] {
+    background: #2db2ea;
+}
+.button, input[type="button"] {
+    padding: 9px 12px;
+    display: inline-block;
+    border: 0px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+a, a:visited{
+    text-decoration: none;
+    color: #2db2ea;
+}
+a:hover,.breadcrumb a:hover{
+    color:#1C1D22;
+}
+div#footer {
+	display: none;
+}
+.large-notice {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 32px;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(180,180,180,0.1);
+    box-shadow: 0px 1px 1px 0px rgba(180,180,180,0.1);
+}
+.large-notice p {
+    font-size: 14px;
+    color: #777;
+}
