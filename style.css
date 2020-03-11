@@ -29,6 +29,7 @@ h1.site-title {
 	display: none;
 	padding: 6px 0;
 	background-color: #02ffff;
+    background-image: none;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #333;
