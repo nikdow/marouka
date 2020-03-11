@@ -25,9 +25,9 @@ body {
         background-position-y: top;
     }
 }
-#mega-menu-wrap-header-menu{
-    margin: 95px auto 10px;
-    width: inherit;
+#mega-menu-wrap-header-menu {
+    margin: 95px auto 10px !important;
+    width: inherit !important;
 }
 h1.site-title {
 	height: 2px;
