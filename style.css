@@ -22,7 +22,12 @@ body {
 @media only screen and (min-width: 1300px) {
     body{
         background-image: url(image/MaroukaLogoWithAlpha.png);
+        background-position-y: top;
     }
+}
+#mega-menu-wrap-header-menu{
+    margin: 95px auto 10px;
+    width: inherit;
 }
 h1.site-title {
 	height: 2px;
