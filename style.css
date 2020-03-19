@@ -23,6 +23,7 @@ body {
     body{
         background-image: url(image/MaroukaLogoWithAlpha.png);
         background-position-y: top;
+        background-position-x: center;
     }
 }
 #mega-menu-wrap-header-menu {
